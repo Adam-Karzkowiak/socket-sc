@@ -12,7 +12,7 @@ class ClientCommandsService {
     void clientCommunication(ClientConnectionService connection) throws IOException {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome. Type 'help' for a list of available commands");
-        while (!scanner.equals("stop")) {
+        while (true) {
             switch (scanner.next()) {
                 case "help":
                     String help = connection.sendMessage("help");
