@@ -1,4 +1,4 @@
-package server;
+package server.server;
 
 import com.google.gson.JsonObject;
 import lombok.experimental.PackagePrivate;
