@@ -1,5 +1,5 @@
 package server.model.utility;
 
-enum Privileges {
+public enum Privileges {
     ADMIN, REGULAR
 }
