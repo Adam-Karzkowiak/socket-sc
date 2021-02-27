@@ -1,7 +1,7 @@
 package client;
 
 
-import server.ServerConstants;
+import server.server.ServerConstants;
 import java.io.IOException;
 
 class ClientRun {
