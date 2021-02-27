@@ -1,4 +1,4 @@
-package server;
+package server.server;
 
 
 import org.joda.time.DateTime;
@@ -52,11 +52,6 @@ public class Server {
         out.close();
         clientSocket.close();
         serverSocket.close();
-    }
-
-    public static void main(String[] args) throws IOException {
-        Server server = new Server();
-        server.start(ServerConstants.SERVER_PORT);
     }
 
 }
