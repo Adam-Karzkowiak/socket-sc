@@ -10,7 +10,7 @@ import org.joda.time.format.PeriodFormatterBuilder;
 import java.io.PrintWriter;
 
 @PackagePrivate
-class CommandsService {
+public class CommandsService {
 
     void getUptime(PrintWriter out, DateTime serverTime) {
         DateTime now = new DateTime();
